@@ -1,1 +1,20 @@
-site_name: My Docs
+site_name: CO2 Analysis
+repo_url: https://github.com/KamilM13/eo-project-page
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: brown
+      accent: amber
+  font:
+    text: Roboto
+    code: Roboto Mono 
+
+nav:
+  - Home: index.md
+  - Contact: contact.md
